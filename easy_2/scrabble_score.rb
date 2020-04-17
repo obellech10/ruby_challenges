@@ -1,6 +1,7 @@
 require 'pry'
 system 'clear'
 
+# completed in 42 minutes
 class Scrabble
 
 LETTER_VALUES = {
