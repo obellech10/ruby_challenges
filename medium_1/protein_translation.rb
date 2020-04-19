@@ -1,8 +1,7 @@
 require 'pry'
 
 # Completed in 60 minutes
-class InvalidCodonError < StandardError
-end
+class InvalidCodonError < StandardError; end
 
 class Translation
   CODON_KEY = {
@@ -15,7 +14,7 @@ class Translation
   }
 
   def self.of_codon(codon)
-    CODON_KEY.fetch(codon) { fail InvalidCodonError }
+    CODON_KEY.fetch(codon) { raise InvalidCodonError }
   end
 
   def self.of_rna(strand)
