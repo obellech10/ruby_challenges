@@ -22,7 +22,7 @@ class Palindromes
 
   def smallest
     Struct.new(:value, :factors)
-    .new(smallest_palindrome, @palindromes[smallest_palindrome])
+          .new(smallest_palindrome, @palindromes[smallest_palindrome])
   end
 
 private
