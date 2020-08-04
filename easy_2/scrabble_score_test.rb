@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'scrabble_score'
+require_relative 'scrabble_score_2'
 system 'clear'
 
 class ScrabbleTest < Minitest::Test

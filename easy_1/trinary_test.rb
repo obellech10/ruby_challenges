@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'trinary'
+require_relative 'trinary_2'
 system 'clear'
 
 class TrinaryTest < Minitest::Test

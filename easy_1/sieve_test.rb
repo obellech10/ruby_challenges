@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'sieve'
+require_relative 'sieve_2'
 system 'clear'
 
 class SieveTest < Minitest::Test

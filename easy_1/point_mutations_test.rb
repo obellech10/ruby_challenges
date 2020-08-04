@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'point_mutations'
+require_relative 'point_mutations_2'
 system 'clear'
 
 class DNATest < Minitest::Test

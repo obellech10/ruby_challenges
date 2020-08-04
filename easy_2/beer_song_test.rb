@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'beer_song'
+require_relative 'beer_song_2'
 system 'clear'
 
 # rubocop:disable Metrics/LineLength

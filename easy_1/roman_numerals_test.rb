@@ -1,8 +1,10 @@
 require 'minitest/autorun'
-require_relative 'roman_numerals'
+require_relative 'roman_numerals_2'
+system 'clear'
 
 class RomanNumeralsTest < Minitest::Test
   def test_1
+    # skip
     assert_equal 'I', 1.to_roman
   end
 
